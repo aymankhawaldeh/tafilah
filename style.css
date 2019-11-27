@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background-image: url("img/yes (2).jpg");
+    height: 150vh;
+    background-size: cover; }
+    
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 30px;
+    
+    }
+    ul li{
+        display: inline-block;
+        margin-top: 50px;
+        margin-right: 10px;
+
+        
+    }
+    ul li a{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+        text-decoration: none;
+        color: black;
+        padding: 5px 20px   ;
+        border: 1px solid sienna;
+        background-color:sienna;
+        font: bold;
+    }
+    ul li a:hover{
+        background-color: green;
+        color:black;
+    }
+    .logo img{
+        margin-top: 20px;
+        float:left;
+        width: 100px;
+        height: auto;
+    }
+    
+    .logo{
+        position: absolute;
+        top: 39%;
+        left: 30%;
+        transform: translate(-50%,-50%);    }
+    .main{
+        max-width: 1300px;
+        margin: auto;
+    }
+    .title{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #024800;
+
+ 
+        font-size: 50px;
+    }
+    .button{
+         position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #024800;
+
+    }
+    .btn{
+        border: 1px solid white;
+        padding: 10px 30px;
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+    .btn:hover{
+        background-color: green;
+    }
+    .audio{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .youtube{
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+    }
